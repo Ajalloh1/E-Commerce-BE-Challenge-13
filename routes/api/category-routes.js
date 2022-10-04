@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
   try {
-    const categoryData = await Category.findAll({
+    Category.findAll({
       include: [{ model: Product }]
     });
     res.status(200).json(categories);
@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   // create a new category
   try {
-    const data = await Category.create(req.body);
+    Category.create(req.body);
     res.status(201).json(data);
   } catch (err) {
     res.status(400).json(err);
@@ -53,8 +53,8 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
   // update a category by its `id` value
   try {
-    const categoryData = await Category.findByPk(req.params.id);
-    const updateCategoryData = await Category.update(req.body, {
+    const categoryData = Category.findByPk(req.params.id);
+    const updateCategoryData = Category.update(req.body, {
       where: {
         id: req.params.id,
       },

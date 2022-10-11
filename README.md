@@ -31,5 +31,5 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 This application utilizes Express, MYSQL2, Sequelize, and dotenv. To run the app on localhost, just enter `node server.js` after entering `npm i`, `source schema.sql` while logged into mySQL, and `npm run seed`.
-
-## Please see attached links to Repository and Video Walkthrough:
+## Video dem https://drive.google.com/file/d/1BBZPCTzhznOnDLA055y0ktLiyI2cCPM8/view
+## Git repo: https://drive.google.com/file/d/1BBZPCTzhznOnDLA055y0ktLiyI2cCPM8/view

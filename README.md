@@ -1,5 +1,9 @@
 # E-commerce Back End Starter Code
 
+![Image1](./assets%20/img1.png)
+
+![Image2](./assets%20/img2.png)
+
 ## User Story
 
 ```

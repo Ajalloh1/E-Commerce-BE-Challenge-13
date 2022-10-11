@@ -4,6 +4,10 @@
 
 ![Image2](./assets%20/img2.png)
 
+## About
+
+This is an e-commerce application. The application can be run on localhost, but first users are 
+required to run the server in node after intalling all the dependecies
 ## User Story
 
 ```
